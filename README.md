@@ -55,7 +55,7 @@ There are events for each emotion:
    - Sadness: `#Emotion Sadness`
 
  for this events you need to aply `#Intensity: {number}` tag
-   - Example: `They lived happily ever after. #Event: Enjoyment #Intensity: 5`
+   - Example: `They lived happily ever after. #Emotion: Enjoyment #Intensity: 5`
 
 ## Scene Tag
 The indicator of scene will be marked as:  `#Scene: {Scene name}`
