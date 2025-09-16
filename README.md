@@ -54,8 +54,8 @@ There are events for each emotion:
    - Enjoyment: `#Emotion Enjoyment`
    - Sadness: `#Emotion Sadness`
 
- for this events you need to aply `#Intensity: {number}` tag
-   - Example: `They lived happily ever after. #Emotion: Enjoyment #Intensity: 5`
+ for this events you can to apply intensity. Positive intensity marked with `+`, negative with `-`
+   - Example: `They lived happily ever after. #Emotion: Enjoyment+5 #Emotion Fear-3`
 
 ## Scene Tag
 The indicator of scene will be marked as:  `#Scene: {Scene name}`
@@ -66,8 +66,8 @@ The indicator for the location will be marked as:  `#Location: {Location name}`
    - Example: `#Location: dorm hallway, late afternoon or early evening`
 
 ## Cast Tag
-The cast is marked with: `#Cast: {cast names}`.
-   - Example: `#Cast: #Name: Alex #Name: Jayce #Name: Sidney`
+The cast is marked with: `#Cast: <{cast name}>`.
+   - Example: `#Cast: <Alex> <Jayce> <Sidney>`
 
 ## ContentWarnings
 Content warnings is marked with: `#ContentWarning: {warning name}`.
